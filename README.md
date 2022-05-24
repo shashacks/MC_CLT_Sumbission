@@ -27,7 +27,6 @@ pip install -e .
 * tqdm
 
 ### Train MC_CLT_PPO 
-* Walk
 <pre>
 <code>
 python -m spinup.run mc_clt_ppo --hid "[64,32]" --env Hopper-v3 --exp_name Hopper-v3 --seed 5000 --alpha 0.05 --mn_std 500
